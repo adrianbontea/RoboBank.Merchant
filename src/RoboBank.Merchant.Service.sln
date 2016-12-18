@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0D311A69-49B6-48CF-A698-5F65DC18EB6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{B3C1EBF9-F7B6-481E-A47A-619F4481B940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1373DA2F-7AE7-44F7-B9E4-9786F4299479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBank.Merchant.Application.Adapters", "RoboBank.Merchant.Application.Adapters\RoboBank.Merchant.Application.Adapters.csproj", "{885485B7-7F11-409C-8D29-68C201847803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBank.Merchant.Application", "RoboBank.Merchant.Application\RoboBank.Merchant.Application.csproj", "{CD416D47-E105-4F46-85D6-41E1E0978641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBank.Merchant.Domain", "RoboBank.Merchant.Domain\RoboBank.Merchant.Domain.csproj", "{49B273AA-9564-4399-B3BF-4FE94E50F9E1}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "RoboBank.Merchant.Deploy", "RoboBank.Merchant.Deploy\RoboBank.Merchant.Deploy.ccproj", "{26F71E48-BE97-4EFD-B0D6-474833DFBC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBank.Merchant.Service", "RoboBank.Merchant.Service\RoboBank.Merchant.Service.csproj", "{55E2ABEC-C05C-440E-9BA8-FAE7B77C1CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBank.Merchant.Service.IntegrationTests", "RoboBank.Merchant.Service.IntegrationTests\RoboBank.Merchant.Service.IntegrationTests.csproj", "{170CE540-BCF6-42AF-B3EA-52D71E653726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{885485B7-7F11-409C-8D29-68C201847803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885485B7-7F11-409C-8D29-68C201847803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885485B7-7F11-409C-8D29-68C201847803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885485B7-7F11-409C-8D29-68C201847803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD416D47-E105-4F46-85D6-41E1E0978641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD416D47-E105-4F46-85D6-41E1E0978641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD416D47-E105-4F46-85D6-41E1E0978641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD416D47-E105-4F46-85D6-41E1E0978641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B273AA-9564-4399-B3BF-4FE94E50F9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B273AA-9564-4399-B3BF-4FE94E50F9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B273AA-9564-4399-B3BF-4FE94E50F9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B273AA-9564-4399-B3BF-4FE94E50F9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F71E48-BE97-4EFD-B0D6-474833DFBC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F71E48-BE97-4EFD-B0D6-474833DFBC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F71E48-BE97-4EFD-B0D6-474833DFBC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F71E48-BE97-4EFD-B0D6-474833DFBC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E2ABEC-C05C-440E-9BA8-FAE7B77C1CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E2ABEC-C05C-440E-9BA8-FAE7B77C1CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E2ABEC-C05C-440E-9BA8-FAE7B77C1CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E2ABEC-C05C-440E-9BA8-FAE7B77C1CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170CE540-BCF6-42AF-B3EA-52D71E653726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170CE540-BCF6-42AF-B3EA-52D71E653726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170CE540-BCF6-42AF-B3EA-52D71E653726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170CE540-BCF6-42AF-B3EA-52D71E653726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{885485B7-7F11-409C-8D29-68C201847803} = {B3C1EBF9-F7B6-481E-A47A-619F4481B940}
+		{CD416D47-E105-4F46-85D6-41E1E0978641} = {0D311A69-49B6-48CF-A698-5F65DC18EB6F}
+		{49B273AA-9564-4399-B3BF-4FE94E50F9E1} = {0D311A69-49B6-48CF-A698-5F65DC18EB6F}
+		{26F71E48-BE97-4EFD-B0D6-474833DFBC48} = {B3C1EBF9-F7B6-481E-A47A-619F4481B940}
+		{55E2ABEC-C05C-440E-9BA8-FAE7B77C1CC7} = {B3C1EBF9-F7B6-481E-A47A-619F4481B940}
+		{170CE540-BCF6-42AF-B3EA-52D71E653726} = {1373DA2F-7AE7-44F7-B9E4-9786F4299479}
+	EndGlobalSection
+EndGlobal
