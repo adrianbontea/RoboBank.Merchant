@@ -7,7 +7,7 @@ using RoboBank.Merchant.Service.Models;
 
 namespace RoboBank.Merchant.Service.Controllers
 {
-    [ElmahGenericExceptionHandling]
+    [AIGenericExceptionHandling]
     public class MerchantController : ApiController
     {
         private readonly MerchantApplicationService _merchantApplicationService;
