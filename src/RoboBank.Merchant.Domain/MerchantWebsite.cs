@@ -2,7 +2,7 @@
 {
     public class MerchantWebsite
     {
-        public string WebsiteKey { get; set; }
+        public stringx WebsiteKey { get; set; }
 
         public string SecretKey { get; set; }
 
